@@ -1,0 +1,100 @@
+.admin-cadastrar-moldes {
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 12px rgba(0,0,0,0.09);
+	padding: 32px 28px;
+	max-width: 500px;
+	margin: 32px auto;
+	font-family: 'Segoe UI', Arial, sans-serif;
+}
+.admin-cadastrar-moldes h2 {
+	font-size: 1.3rem;
+	color: #1a7c3a;
+	margin-bottom: 18px;
+	text-align: center;
+}
+.cadastrar-moldes-form {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+	background: #f8f8f8;
+	border-radius: 10px;
+	padding: 18px 16px;
+}
+.form-group {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+.form-group label {
+	font-size: 1rem;
+	color: #333;
+	font-weight: 500;
+}
+.form-group input,
+.form-group textarea {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #b2b2b2;
+	font-size: 1rem;
+	background: #f9f9f9;
+	transition: border 0.2s;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+	border-color: #1a7c3a;
+	outline: none;
+	background: #fff;
+}
+.btn-cadastrar {
+	background: linear-gradient(90deg, #1a7c3a 60%, #2ecc71 100%);
+	color: #fff;
+	border: none;
+	border-radius: 7px;
+	padding: 12px 0;
+	font-size: 1.1rem;
+	cursor: pointer;
+	font-weight: 500;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+	transition: background 0.2s;
+	margin-top: 10px;
+}
+.btn-cadastrar:hover {
+	background: linear-gradient(90deg, #145c2a 60%, #27ae60 100%);
+}
+
+/* Custom file input */
+.form-group input[type="file"] {
+	display: none;
+}
+
+.custom-file-label {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	background: #e8f5e9;
+	border: 1px solid #1a7c3a;
+	color: #1a7c3a;
+	border-radius: 5px;
+	padding: 10px 16px;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: 500;
+	transition: background 0.2s, color 0.2s;
+	margin-top: 2px;
+}
+.custom-file-label:hover {
+	background: #c8e6c9;
+	color: #145c2a;
+}
+
+.file-name {
+	font-size: 0.97rem;
+	color: #333;
+	margin-left: 8px;
+	font-style: italic;
+	max-width: 220px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

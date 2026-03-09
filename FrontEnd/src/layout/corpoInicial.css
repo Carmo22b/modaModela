@@ -1,0 +1,117 @@
+
+.corpo-inicial {
+	width: 100%;
+	min-height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #f8f8fc;
+	padding-bottom: 2rem;
+}
+
+.corpo-section {
+	width: 100%;
+	max-width: 1200px;
+	margin: 2.5rem auto;
+	padding: 2.5rem 2rem;
+	background: #fff;
+	border-radius: 18px;
+	box-shadow: 0 2px 16px rgba(100, 100, 150, 0.07);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.corpo-inicio h1 {
+	font-size: 2.5rem;
+	color: #fc5c7d;
+	margin-bottom: 1rem;
+}
+.corpo-inicio p {
+	font-size: 1.2rem;
+	color: #444;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.corpo-btn {
+	background: linear-gradient(90deg, #6a82fb 0%, #fc5c7d 100%);
+	color: #fff;
+	padding: 0.8rem 2.2rem;
+	border: none;
+	border-radius: 25px;
+	font-size: 1.1rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background 0.2s, transform 0.2s;
+	text-decoration: none;
+	box-shadow: 0 2px 8px rgba(252,92,125,0.08);
+}
+.corpo-btn:hover {
+	background: #6a82fb;
+	color: #fff;
+	transform: translateY(-2px) scale(1.04);
+}
+
+.corpo-produtos h2,
+.corpo-sobre h2 {
+	color: #6a82fb;
+	font-size: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+.produtos-lista {
+	display: flex;
+	gap: 2rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.produto-card {
+	background: #f6f7fb;
+	border-radius: 14px;
+	box-shadow: 0 1px 8px rgba(106,130,251,0.07);
+	padding: 1.2rem 1rem 1.5rem 1rem;
+	width: 220px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: box-shadow 0.2s, transform 0.2s;
+}
+.produto-card:hover {
+	box-shadow: 0 4px 18px rgba(252,92,125,0.13);
+	transform: translateY(-4px) scale(1.03);
+}
+.produto-card img {
+	width: 100%;
+	height: 140px;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+}
+.produto-card h3 {
+	color: #fc5c7d;
+	font-size: 1.15rem;
+	margin-bottom: 0.5rem;
+}
+.produto-card p {
+	color: #555;
+	font-size: 0.98rem;
+	text-align: center;
+}
+
+.corpo-sobre p {
+	color: #444;
+	font-size: 1.08rem;
+	text-align: center;
+	max-width: 700px;
+}
+
+.banner {
+	background-image: url(../assets/a-vibrant-banner-design-showcasing-an-ar_NNmEVe3PRs-OiHonnbCJbg_HPWFtrmWT3amuWKFwH5Obw.jpeg);
+	width: 100%;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}

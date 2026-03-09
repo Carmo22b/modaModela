@@ -1,0 +1,130 @@
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.formulario-card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.09);
+    padding: 36px 32px;
+    max-width: 500px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    animation: fadeInUp 0.5s cubic-bezier(.4, 1.4, .7, 1) both;
+    overflow-y: auto;
+    height: 650px;
+}
+.formulario-card h2 {
+    font-size: 2rem;
+    color: #1a7c3a;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.produtos-carrinho {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+.produto-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 1.08rem;
+    background: #f6f6f6;
+    border-radius: 8px;
+    padding: 10px 16px;
+}
+.produto-carrinho-img {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-right: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+.input-tipo {
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: 1px solid #b2b2b2;
+    font-size: 1rem;
+    background: #fff;
+    margin-left: 8px;
+}
+.input-quantidade {
+    width: 60px;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #b2b2b2;
+    text-align: center;
+    font-size: 1rem;
+    background: #fff;
+}
+.total-carrinho {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1a7c3a;
+    text-align: right;
+    margin-top: 8px;
+    margin-bottom: 18px;
+}
+.formulario-card h3 {
+    font-size: 1.15rem;
+    color: #222;
+    margin-bottom: 8px;
+    margin-top: 18px;
+}
+.endereco-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+.endereco-fields input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b2b2b2;
+    font-size: 1rem;
+    background: #f9f9f9;
+}
+.endereco-fields input:focus {
+    border-color: #1a7c3a;
+    outline: none;
+    background: #fff;
+}
+.btn-finalizar {
+    background: linear-gradient(90deg, #1a7c3a 60%, #2ecc71 100%);
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 14px 0;
+    font-size: 1.15rem;
+    cursor: pointer;
+    margin-top: 22px;
+    font-weight: 500;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    transition: background 0.2s;
+}
+.btn-finalizar:hover {
+    background: linear-gradient(90deg, #145c2a 60%, #27ae60 100%);
+}
+@media (max-width: 600px) {
+    .formulario-card {
+        padding: 18px 6px;
+        max-width: 98vw;
+    }
+    .endereco-fields {
+        grid-template-columns: 1fr;
+    }
+}
