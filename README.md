@@ -27,16 +27,10 @@ ModaModela é um e-commerce de modelagens de roupas, onde usuários podem se cad
 ### Banco de Dados
 - MySQL
 
-## Screenshots
+## Screenshot
 
 ### Página inicial
-![Descrição](https://link-da-imagem.com/imagem.png)
-
-### Login
-![Descrição](https://link-da-imagem.com/imagem.png)
-
-### Área administrativa
-![Descrição](https://link-da-imagem.com/imagem.png)
+![Imagem](./FrontEnd/public/captura.png)
 
 ## Como rodar o projeto
 
@@ -45,11 +39,11 @@ ModaModela é um e-commerce de modelagens de roupas, onde usuários podem se cad
 git clone https://github.com/Carmo22b/modaModela.git
 
 cd backend
-composer install <--- Faz só a primeira vez
+composer install <--- Faz só a primeira vez;
 bin/cake server
 
 cd frontend
-npm install <--- Faz só a primeira vez
+npm install <--- Faz só a primeira vez;
 npm run dev
 
 ## Autor
